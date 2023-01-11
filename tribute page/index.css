@@ -1,0 +1,40 @@
+body{
+    background-color:#000000;
+    color: white;
+    font-family: sans-serif;
+}
+
+.details{
+    text-align: center;
+}
+
+img{
+     margin-left: 28%;
+     width: 45%;
+     height: 550px;
+}
+
+.image{
+    position: relative;
+}
+
+.image p{
+    position:absolute;
+    color: blue;
+    left: 30%;
+    bottom: 20%;
+    width: 10%;
+    font-weight: bolder;
+}
+
+.biography{
+    margin-left: 37%;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.biography h2{
+    text-align: center;
+    max-height: 80px;
+}
