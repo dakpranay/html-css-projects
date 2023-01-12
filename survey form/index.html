@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey form</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="icon" href="survey.webp">
+        <meta name="viewport" content="width=device-width,initial-scale=1" >
+    </head>
+    <body>
+        <div class="form_body">
+            <div class="heading">
+                <h1>Survey Form :</h1>
+            </div>
+            <hr>
+            <hr>
+            <div class="parent_name">
+                <h1>Customer Name</h1>
+                <div class="name">
+                    <div class="down">
+                       <input type="text" for="firstName" class="name_input" required >
+                       <label >Enter your First name <span>*</span></label>
+                    </div>
+                    <div class="down">
+                        <input type="text" for="lastName" class="name_input" required>
+                        <label >Enter your Last name<span>*</span> </label>
+                    </div>
+                </div>
+
+                <div class="address">
+                    <h1>Address</h1>
+                    <div class="address_part">
+                        <input type="text" class="address_input">
+                        <lable class="label">Street Address<span>*</span></lable>
+                    </div >
+                    <div class="address_part">
+                        <input type="text" class="address_input">
+                        <lable class="label">Street Address Line 2</lable>
+                    </div>
+                    <div class="name2">
+                        <div class="name_div">
+                            <input type="text" class="down2">
+                            <lable class="label3">City<span>*</span></lable>
+                        </div>
+                        <div class="name_div">
+                            <input type="text" class="down2" >
+                            <lable class="lable3">State<span>*</span></lable>
+                        </div>
+                        <div class="name_div">
+                            <input type="text" class="down2" >
+                            <lable class="label3">Pincode<span>*</span></lable>
+                        </div>
+                        <div class="name_div">
+                            <input type="text" class="down2" >
+                            <lable class="label3" >Country<span>*</span></lable>
+                        </div>
+                    </div> 
+                    </div>
+                </div>
+
+                <div class="parent_name">
+                    <h1>Contact</h1>
+                    <div class="name">
+                        <div class="down">
+                           <input type="tel" for="firstName" class="name_input">
+                           <label>Phone<span>*</span></label>
+                        </div>
+                        <div class="down">
+                            <input type="email" for="lastName" class="name_input">
+                            <label>Email<span>*</span></label>
+                        </div>
+                </div>
+
+                <div>
+                    <h1>Personal Details</h1>
+                    <input type="radio" name="gender">Male<br>
+                    <input type="radio" name="gender">Female<br>
+                    <input type="radio" name="gender">Other<br>
+                </div>
+
+                <div>
+                    <h1>Rating</h1>
+                    <div class="rating">
+                        <span class="span">Rating 1:</span>
+                        <input type="radio" name="rating1">Bad
+                        <input type="radio" name="rating1">Good
+                        <input type="radio" name="rating1">Excellent
+                    </div>
+                    <div class="rating">
+                        <span class="span">Rating 2:</span>
+                        <input type="radio" name="rating2">Bad
+                        <input type="radio" name="rating2">Good
+                        <input type="radio" name="rating2">Excellent
+                    </div>
+                    <div class="rating">
+                        <span class="span">Rating 3:</span>
+                        <input type="radio" name="rating3">Bad
+                        <input type="radio" name="rating3">Good
+                        <input type="radio" name="rating3">Excellent
+                    </div>
+                </div>
+            </div>
+            <button class="submit">Submit</button>
+
+        </div>
+    </body>
+</html>

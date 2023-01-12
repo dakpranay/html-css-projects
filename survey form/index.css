@@ -1,0 +1,145 @@
+body{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+*{
+    color: white;
+    font-family: sans-serif;
+}
+input{
+    color: black;
+}
+
+.heading{
+    font-size: 20px;
+}
+
+.form_body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    width: 100%;
+    max-width: 600px;
+    border: 5px solid white;
+    outline: 4px solid black;
+}
+
+hr{
+    width: 80%;
+}
+
+.name2{
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    flex-wrap: wrap;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 600px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+hr{
+    margin-top: 0;
+}
+
+.down{
+    display: flex;
+    flex-direction: column;
+    margin-right: 18%;
+}
+
+.name_input{
+    color: black;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 120%;
+}
+
+.label{
+    margin: 1%;
+}
+label{
+    margin: 3%;
+}
+
+.parent_name {
+    width: 100%;
+    text-align: left;
+    margin-left: 7%;
+}
+
+.address_input{
+    padding: 10px;
+    width: 90%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.address_part{
+    margin-bottom: 10px;
+}
+
+.down2{
+    padding: 10px;
+    display: flex;
+    max-width: 600px;
+    margin-left: 0%;
+    width: 130%;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.label3{
+    margin-left: 2%;
+}
+.name_div{
+    max-width: 600px;
+    margin-bottom: 1%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+}
+
+.rating{
+    margin-bottom: 3%;
+}
+
+span{
+    color: red;
+}
+
+.span{
+    color: white;
+}
+
+.submit{
+    max-width: 600px;
+    background-color:orange;
+    font-weight: bolder;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 25%;
+    border-radius: 10px;
+    font-size:larger;
+    margin-bottom: 3%;
+}
+
+.submit:hover{
+    box-shadow: 1px 1px 1px 3px yellow;
+    transition: 1s;
+}
